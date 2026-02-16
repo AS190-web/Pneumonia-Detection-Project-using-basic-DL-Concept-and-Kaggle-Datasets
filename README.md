@@ -67,8 +67,9 @@ https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
 
 ---
 
-## 📌 Results Summary
-The ensemble model achieved better generalization compared to individual models, demonstrating the effectiveness of combining multiple CNN architectures for medical image classification.
+## 📊 Results
+
+All evaluation plots, visualizations, and Grad-CAM outputs generated during model training and testing are stored in the `Results/` directory.
 
 ---
 
