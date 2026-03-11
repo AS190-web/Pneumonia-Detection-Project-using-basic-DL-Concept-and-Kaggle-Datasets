@@ -81,7 +81,6 @@ Seaborn
 Google Colab
 
 🚀 How to Run the Project
-
 1️⃣ Open the notebook
 
 Open the project notebook in Google Colab.
