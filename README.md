@@ -1,77 +1,111 @@
-# Pneumonia Detection using Deep Learning (Chest X-Ray)
+🩺 Pneumonia Detection using Deep Learning (Chest X-Ray)
 
-This project implements a **Pneumonia Detection System** using **Deep Learning** techniques on **Chest X-ray images**.  
-The goal is to automatically classify X-ray images as **Pneumonia** or **Normal** using multiple CNN-based models and ensemble learning.
+This project implements a Pneumonia Detection System using Deep Learning techniques on Chest X-ray images.
+The objective is to automatically classify X-ray images as Pneumonia or Normal using Convolutional Neural Network (CNN) based models and ensemble learning.
 
----
+The project demonstrates how AI can assist in medical image analysis using modern deep learning methods.
 
-## 📌 Project Highlights
-- Binary classification: **Pneumonia vs Normal**
-- Implemented using **basic Deep Learning concepts**
-- Multiple models trained and compared
-- Ensemble model used for improved performance
-- Explainability using **Grad-CAM**
-- Performance evaluation with standard metrics
+📌 Project Highlights
 
----
+Binary classification: Pneumonia vs Normal
 
-## 🧠 Models Implemented
-- Simple CNN
-- VGG-based CNN
-- ResNet-based model
-- Ensemble of multiple models
+Implementation using basic Deep Learning concepts
 
----
+Multiple CNN models trained and compared
 
-## 📊 Evaluation Metrics
-- Accuracy
-- Precision
-- Recall
-- F1-Score
-- ROC Curve & AUC
-- Confusion Matrix
-- Precision–Recall Curve
+Ensemble learning used for improved prediction performance
+
+Explainability using Grad-CAM
+
+Performance evaluated using standard classification metrics
+
+🧠 Models Implemented
+
+The following deep learning models were implemented and evaluated:
+
+Simple CNN Model
+
+VGG-based CNN Model
+
+ResNet-based Model
+
+Ensemble Model combining multiple architectures
+
+📊 Evaluation Metrics
+
+Model performance was evaluated using the following metrics:
+
+Accuracy
+
+Precision
+
+Recall
+
+F1-Score
+
+ROC Curve & AUC
+
+Confusion Matrix
+
+Precision–Recall Curve
 
 Representative evaluation plots and Grad-CAM visualizations are included in this repository.
 
-> **Note:**  
-> All visualizations are generated from the same validation dataset.  
-> Selected representative plots are included for clarity.
+Note:
+All visualizations are generated from the same validation dataset.
+Selected representative plots are included for clarity.
 
----
+🗂 Dataset
 
-## 🗂 Dataset
-Chest X-Ray Pneumonia Dataset  
-Source (Kaggle):  
+Chest X-Ray Pneumonia Dataset
+
+Source (Kaggle):
 https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
 
-⚠️ Dataset is **not uploaded** to this repository due to size constraints.
+⚠️ The dataset is not included in this repository due to its large size.
 
----
+🛠 Tools & Technologies
 
-## 🛠 Tools & Technologies
-- Python
-- TensorFlow / Keras
-- NumPy, Pandas
-- Matplotlib, Seaborn
-- Google Colab
+Python
 
----
+TensorFlow / Keras
 
-## 🚀 How to Run
-1. Open the notebook in **Google Colab**
-2. Download the dataset from Kaggle
-3. Update dataset path if required
-4. Run all cells sequentially
-5. Google collab (link): https://colab.research.google.com/drive/189UVaYyZdLLDI2BNy6I3WHmnMRAj70t2?usp=sharing.
+NumPy
 
----
+Pandas
 
-## 📊 Results
+Matplotlib
 
-All evaluation plots, visualizations, and Grad-CAM outputs generated during model training and testing are stored in the `Results/` directory.
+Seaborn
 
----
+Google Colab
 
-## 📎 Disclaimer
-This project is intended for **educational and research purposes only** and should not be used for real-world medical diagnosis.
+🚀 How to Run the Project
+
+1️⃣ Open the notebook
+
+Open the project notebook in Google Colab.
+
+2️⃣ Download dataset
+
+Download the dataset from Kaggle and upload it to your environment.
+
+3️⃣ Update dataset path
+
+Modify the dataset path inside the notebook if required.
+
+4️⃣ Run the notebook
+
+Run all cells sequentially to train and evaluate the models.
+
+📎 Google Colab Notebook:
+https://colab.research.google.com/drive/189UVaYyZdLLDI2BNy6I3WHmnMRAj70t2
+
+📊 Results
+
+All evaluation plots, model performance visualizations, and Grad-CAM outputs generated during training and testing are stored in the Results/ directory.
+
+⚠️ Disclaimer
+
+This project is intended for educational and research purposes only.
+It should not be used for real-world medical diagnosis or clinical decision-making.
